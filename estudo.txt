@@ -1,0 +1,24 @@
+********* Para definir comentários: *********
+
+% - comentários
+
+********* Para definir parâmetros: *********
+
+texto(fator1, fator2). - como definir
+
+********* Para buscar fatos: *********
+
+texto(fator1, fator2). - como buscar(true or false)
+texto(X, fator2). - como buscar(em relação a X)
+texto(X, Y). - como buscar(em relação a X e Y)
+(se tiver mais de um resultado é necessário colocar um ";")
+
+********* Para verificar 2 Fatos juntos: *********
+
+texto(X, fator2),texto(X, fator3).
+
+********* Para verificar 2 fatos atrás: *********
+
+texto(X, Y),texto(Y, fator2).
+ou
+texto(X, Y),texto(Y, Z).

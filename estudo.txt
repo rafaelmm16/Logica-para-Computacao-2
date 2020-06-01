@@ -22,3 +22,9 @@ texto(X, fator2),texto(X, fator3).
 texto(X, Y),texto(Y, fator2).
 ou
 texto(X, Y),texto(Y, Z).
+
+********* Para filtrar mais a busca *********
+
+texto(X, Y),texto(Y, fator), texto2(X).
+texto(X, Y),texto(Y, fator), texto3(Y).
+texto(X, Y),texto(X, fator2), texto2(Y).

@@ -31,7 +31,9 @@ texto(X, Y),texto(X, fator2), texto2(Y).
 
 ********* Regras *********
 
-:- (Significa SE/IMPLICA)
+Parâmetros das regras são sempre em Maiúsculo
+
+Se ou Implica: ":-"
 
 texto1(X, Y) :-
 	texto2(X, Y).
@@ -47,3 +49,21 @@ ou
 texto1(X, z) :-
 	texto2(X, Y),
 	texto2(Y, Z).
+
+********* Operadores *********
+
+Igualdade: "="
+Diferença: "\=" (em alguns compiladores o operador de diferença é "<>")
+Menor que: "<"
+Maior que: ">"
+Menor ou igual: "=<" (alguns compiladores seguem a versão ">=")
+Maior ou igual: ">="
+
+********* Operadores Ariméticos *********
+
+Soma: "+";
+Subtração: "-";
+Multiplicação: "*";
+Divisão: "/";
+... "mod";
+Módulo: "is".

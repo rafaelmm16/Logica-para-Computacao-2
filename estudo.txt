@@ -28,3 +28,22 @@ texto(X, Y),texto(Y, Z).
 texto(X, Y),texto(Y, fator), texto2(X).
 texto(X, Y),texto(Y, fator), texto3(Y).
 texto(X, Y),texto(X, fator2), texto2(Y).
+
+********* Regras *********
+
+:- (Significa SE/IMPLICA)
+
+texto1(X, Y) :-
+	texto2(X, Y).
+
+ou
+
+texto1(X, Y) :-
+	texto2(X, Y),
+	texto3(X).
+
+ou
+
+texto1(X, z) :-
+	texto2(X, Y),
+	texto2(Y, Z).

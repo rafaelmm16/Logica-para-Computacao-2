@@ -67,3 +67,16 @@ Multiplicação: "*";
 Divisão: "/";
 ... "mod";
 Módulo: "is".
+
+********* Entrada e Saída *********
+
+read(). == Leitura
+write(). == Mostrada na IDE
+tab(n). == Espaçamento com o tamanho(n)
+
+Parâmetro vazio: texto().
+Parâmetro atribuido: texto(X,Y...).
+
+Como se trata de uma string é necessário colocar em " ".
+ex: |: "rafael".
+

@@ -1,5 +1,5 @@
 # prologstudy
 
-![](template.png)
+Repositório de estudo e atividades, da linguagem de Programação em Lógica Matemática.
 
-Repositório de estudo da linguagem de Programação em Lógica Matemática.
+![](template.png)
